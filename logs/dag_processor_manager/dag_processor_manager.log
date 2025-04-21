@@ -1,0 +1,831 @@
+[2025-04-21T12:51:28.462+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-04-21T12:51:28.463+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-04-21T12:51:28.464+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-21T12:51:28.465+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T12:51:28.467+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
+[2025-04-21T12:56:29.103+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T12:56:29.128+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
+[2025-04-21T13:01:29.990+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T13:01:30.002+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
+[2025-04-21T13:06:30.962+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T13:06:31.002+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
+[2025-04-21T13:11:31.085+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T13:11:31.103+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
+[2025-04-21T13:16:32.092+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T13:16:32.126+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-21T13:16:43.427+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                           0           1  0.17s           2025-04-21T13:16:32
+/opt/airflow/dags/iris_pipeline.py                                1           0  0.34s           2025-04-21T13:16:32
+================================================================================
+[2025-04-21T13:17:13.884+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                           0           1  0.11s           2025-04-21T13:17:02
+/opt/airflow/dags/iris_pipeline.py                                1           0  0.12s           2025-04-21T13:17:02
+================================================================================
+[2025-04-21T13:17:44.295+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                           0           1  0.07s           2025-04-21T13:17:33
+/opt/airflow/dags/iris_pipeline.py                                1           0  0.09s           2025-04-21T13:17:33
+================================================================================
+[2025-04-21T13:18:14.684+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                           0           1  0.07s           2025-04-21T13:18:03
+/opt/airflow/dags/iris_pipeline.py                                1           0  0.09s           2025-04-21T13:18:03
+================================================================================
+[2025-04-21T13:18:45.114+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                           0           1  0.07s           2025-04-21T13:18:33
+/opt/airflow/dags/iris_pipeline.py                                1           0  0.09s           2025-04-21T13:18:34
+================================================================================
+[2025-04-21T13:19:15.519+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                           0           1  0.08s           2025-04-21T13:19:04
+/opt/airflow/dags/iris_pipeline.py                                1           0  0.11s           2025-04-21T13:19:04
+================================================================================
+[2025-04-21T13:19:45.913+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                           0           1  0.07s           2025-04-21T13:19:34
+/opt/airflow/dags/iris_pipeline.py                                1           0  0.09s           2025-04-21T13:19:34
+================================================================================
+[2025-04-21T13:20:16.282+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                           0           1  0.06s           2025-04-21T13:20:05
+/opt/airflow/dags/iris_pipeline.py                                1           0  0.09s           2025-04-21T13:20:05
+================================================================================
+[2025-04-21T13:20:46.673+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                           0           1  0.07s           2025-04-21T13:20:35
+/opt/airflow/dags/iris_pipeline.py                                1           0  0.09s           2025-04-21T13:20:35
+================================================================================
+[2025-04-21T13:21:17.093+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                           0           1  0.07s           2025-04-21T13:21:05
+/opt/airflow/dags/iris_pipeline.py                                1           0  0.09s           2025-04-21T13:21:06
+================================================================================
+[2025-04-21T13:21:32.279+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T13:21:32.308+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2025-04-21T13:21:47.551+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           1  0.07s           2025-04-21T13:21:36
+/opt/airflow/dags/scripts/train_model.py                           0           1  0.96s           2025-04-21T13:21:33
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.10s           2025-04-21T13:21:36
+================================================================================
+[2025-04-21T13:22:18.070+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           1  0.08s           2025-04-21T13:22:06
+/opt/airflow/dags/scripts/train_model.py                           0           1  0.39s           2025-04-21T13:22:04
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.10s           2025-04-21T13:22:06
+================================================================================
+[2025-04-21T13:22:48.531+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           1  0.06s           2025-04-21T13:22:37
+/opt/airflow/dags/scripts/train_model.py                           0           1  0.28s           2025-04-21T13:22:34
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.08s           2025-04-21T13:22:37
+================================================================================
+[2025-04-21T13:23:19.058+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           1  0.07s           2025-04-21T13:23:07
+/opt/airflow/dags/scripts/train_model.py                           0           1  0.28s           2025-04-21T13:23:05
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.08s           2025-04-21T13:23:07
+================================================================================
+[2025-04-21T13:23:22.215+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-21T13:23:38.648+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-04-21T13:23:38.649+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-04-21T13:23:38.650+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-21T13:23:38.652+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T13:23:38.681+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2025-04-21T13:23:38.770+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/iris_pipeline.py                                 0           0
+/opt/airflow/dags/scripts/preprocess.py     167  0.04s             0           0
+/opt/airflow/dags/scripts/train_model.py    164  0.05s             0           0
+================================================================================
+[2025-04-21T13:24:09.002+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py     180  0.01s             0           1  0.09s           2025-04-21T13:23:38
+/opt/airflow/dags/scripts/train_model.py                           0           1  1.02s           2025-04-21T13:23:39
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.14s           2025-04-21T13:23:38
+================================================================================
+[2025-04-21T13:24:39.548+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py     196  0.02s             0           1  0.09s           2025-04-21T13:24:09
+/opt/airflow/dags/scripts/train_model.py                           0           1  0.35s           2025-04-21T13:24:10
+/opt/airflow/dags/iris_pipeline.py          199  0.01s             1           0  0.10s           2025-04-21T13:24:09
+================================================================================
+[2025-04-21T13:25:09.979+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py     212  0.03s             0           1  0.07s           2025-04-21T13:24:39
+/opt/airflow/dags/scripts/train_model.py                           0           1  0.28s           2025-04-21T13:24:40
+/opt/airflow/dags/iris_pipeline.py          215  0.01s             1           0  0.09s           2025-04-21T13:24:39
+================================================================================
+[2025-04-21T13:25:40.417+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py     228  0.03s             0           1  0.07s           2025-04-21T13:25:10
+/opt/airflow/dags/scripts/train_model.py                           0           1  0.29s           2025-04-21T13:25:11
+/opt/airflow/dags/iris_pipeline.py          230  0.00s             1           0  0.09s           2025-04-21T13:25:10
+================================================================================
+[2025-04-21T13:26:10.914+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py     244  0.04s             0           1  0.10s           2025-04-21T13:25:40
+/opt/airflow/dags/scripts/train_model.py                           0           1  0.34s           2025-04-21T13:25:41
+/opt/airflow/dags/iris_pipeline.py          247  0.00s             1           0  0.11s           2025-04-21T13:25:40
+================================================================================
+[2025-04-21T13:26:41.420+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py     260  0.04s             0           1  0.12s           2025-04-21T13:26:10
+/opt/airflow/dags/scripts/train_model.py                           0           1  0.35s           2025-04-21T13:26:12
+/opt/airflow/dags/iris_pipeline.py          263  0.00s             1           0  0.13s           2025-04-21T13:26:11
+================================================================================
+[2025-04-21T13:27:11.868+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py     276  0.03s             0           1  0.11s           2025-04-21T13:26:41
+/opt/airflow/dags/scripts/train_model.py                           0           1  0.34s           2025-04-21T13:26:42
+/opt/airflow/dags/iris_pipeline.py          279  0.01s             1           0  0.12s           2025-04-21T13:26:41
+================================================================================
+[2025-04-21T13:27:42.300+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py     292  0.03s             0           1  0.07s           2025-04-21T13:27:11
+/opt/airflow/dags/scripts/train_model.py                           0           1  0.28s           2025-04-21T13:27:13
+/opt/airflow/dags/iris_pipeline.py          295  0.01s             1           0  0.10s           2025-04-21T13:27:11
+================================================================================
+[2025-04-21T13:28:12.775+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py     308  0.04s             0           1  0.08s           2025-04-21T13:27:42
+/opt/airflow/dags/scripts/train_model.py                           0           1  0.28s           2025-04-21T13:27:43
+/opt/airflow/dags/iris_pipeline.py          311  0.01s             1           0  0.10s           2025-04-21T13:27:42
+================================================================================
+[2025-04-21T13:28:39.150+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T13:28:39.190+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2025-04-21T13:28:43.314+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py     324  0.05s             0           1  0.09s           2025-04-21T13:28:12
+/opt/airflow/dags/scripts/train_model.py                           0           1  0.35s           2025-04-21T13:28:14
+/opt/airflow/dags/iris_pipeline.py          327  0.00s             1           0  0.09s           2025-04-21T13:28:12
+================================================================================
+[2025-04-21T13:29:13.813+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py     340  0.06s             0           1  0.12s           2025-04-21T13:28:43
+/opt/airflow/dags/scripts/train_model.py                           0           1  0.34s           2025-04-21T13:28:44
+/opt/airflow/dags/iris_pipeline.py          343  0.01s             1           0  0.12s           2025-04-21T13:28:43
+================================================================================
+[2025-04-21T13:29:44.302+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py     356  0.04s             0           1  0.14s           2025-04-21T13:29:13
+/opt/airflow/dags/scripts/train_model.py                           0           1  0.37s           2025-04-21T13:29:15
+/opt/airflow/dags/iris_pipeline.py          359  0.01s             1           0  0.12s           2025-04-21T13:29:13
+================================================================================
+[2025-04-21T13:30:14.787+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py     372  0.04s             0           1  0.13s           2025-04-21T13:29:44
+/opt/airflow/dags/scripts/train_model.py                           0           1  0.33s           2025-04-21T13:29:45
+/opt/airflow/dags/iris_pipeline.py          375  0.01s             1           0  0.14s           2025-04-21T13:29:44
+================================================================================
+[2025-04-21T13:30:45.326+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py     388  0.06s             0           1  0.12s           2025-04-21T13:30:14
+/opt/airflow/dags/scripts/train_model.py                           0           1  0.34s           2025-04-21T13:30:16
+/opt/airflow/dags/iris_pipeline.py          391  0.01s             1           0  0.13s           2025-04-21T13:30:14
+================================================================================
+[2025-04-21T13:31:15.782+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py     404  0.04s             0           1  0.15s           2025-04-21T13:30:45
+/opt/airflow/dags/scripts/train_model.py                           0           1  0.33s           2025-04-21T13:30:46
+/opt/airflow/dags/iris_pipeline.py          406  0.01s             1           0  0.15s           2025-04-21T13:30:45
+================================================================================
+[2025-04-21T13:31:46.292+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py     420  0.06s             0           1  0.12s           2025-04-21T13:31:15
+/opt/airflow/dags/scripts/train_model.py                           0           1  0.38s           2025-04-21T13:31:17
+/opt/airflow/dags/iris_pipeline.py          423  0.01s             1           0  0.13s           2025-04-21T13:31:15
+================================================================================
+[2025-04-21T13:32:16.793+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py     436  0.05s             0           1  0.14s           2025-04-21T13:31:46
+/opt/airflow/dags/scripts/train_model.py                           0           1  0.33s           2025-04-21T13:31:47
+/opt/airflow/dags/iris_pipeline.py          439  0.01s             1           0  0.14s           2025-04-21T13:31:46
+================================================================================
+[2025-04-21T13:32:47.308+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py     452  0.05s             0           1  0.14s           2025-04-21T13:32:16
+/opt/airflow/dags/scripts/train_model.py                           0           1  0.31s           2025-04-21T13:32:18
+/opt/airflow/dags/iris_pipeline.py          454  0.01s             1           0  0.13s           2025-04-21T13:32:16
+================================================================================
+[2025-04-21T13:33:17.771+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py     468  0.05s             0           1  0.12s           2025-04-21T13:32:47
+/opt/airflow/dags/scripts/train_model.py                           0           1  0.41s           2025-04-21T13:32:48
+/opt/airflow/dags/iris_pipeline.py          471  0.01s             1           0  0.12s           2025-04-21T13:32:47
+================================================================================
+[2025-04-21T13:33:39.366+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T13:33:39.397+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2025-04-21T13:33:48.234+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py     484  0.03s             0           1  0.13s           2025-04-21T13:33:17
+/opt/airflow/dags/scripts/train_model.py                           0           1  0.34s           2025-04-21T13:33:19
+/opt/airflow/dags/iris_pipeline.py          486  0.01s             1           0  0.13s           2025-04-21T13:33:17
+================================================================================
+[2025-04-21T13:34:18.789+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py     500  0.06s             0           1  0.13s           2025-04-21T13:33:48
+/opt/airflow/dags/scripts/train_model.py                           0           1  0.36s           2025-04-21T13:33:49
+/opt/airflow/dags/iris_pipeline.py          503  0.01s             1           0  0.17s           2025-04-21T13:33:48
+================================================================================
+[2025-04-21T13:34:22.439+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-21T13:43:13.638+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-04-21T13:43:13.639+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-04-21T13:43:13.641+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-21T13:43:13.642+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T13:43:13.668+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2025-04-21T13:43:13.753+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/iris_pipeline.py                                 0           0
+/opt/airflow/dags/scripts/preprocess.py     166  0.04s             0           0
+/opt/airflow/dags/scripts/train_model.py    163  0.05s             0           0
+================================================================================
+[2025-04-21T13:43:44.360+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  1.01s           2025-04-21T13:43:14
+/opt/airflow/dags/scripts/train_model.py                           0           0  1.38s           2025-04-21T13:43:15
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.26s           2025-04-21T13:43:14
+================================================================================
+[2025-04-21T13:44:14.741+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.88s           2025-04-21T13:43:46
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.97s           2025-04-21T13:43:46
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.09s           2025-04-21T13:43:46
+================================================================================
+[2025-04-21T13:44:45.122+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.84s           2025-04-21T13:44:17
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.97s           2025-04-21T13:44:17
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.12s           2025-04-21T13:44:17
+================================================================================
+[2025-04-21T13:45:15.430+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.80s           2025-04-21T13:44:49
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.91s           2025-04-21T13:44:49
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.10s           2025-04-21T13:44:49
+================================================================================
+[2025-04-21T13:45:45.750+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.83s           2025-04-21T13:45:20
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.93s           2025-04-21T13:45:20
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.09s           2025-04-21T13:45:20
+================================================================================
+[2025-04-21T13:46:16.139+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.92s           2025-04-21T13:45:51
+/opt/airflow/dags/scripts/train_model.py                           0           0  1.03s           2025-04-21T13:45:51
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.10s           2025-04-21T13:45:51
+================================================================================
+[2025-04-21T13:46:46.478+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.87s           2025-04-21T13:46:23
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.99s           2025-04-21T13:46:23
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.11s           2025-04-21T13:46:23
+================================================================================
+[2025-04-21T13:47:16.871+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.84s           2025-04-21T13:46:54
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.95s           2025-04-21T13:46:54
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.12s           2025-04-21T13:46:54
+================================================================================
+[2025-04-21T13:47:47.195+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.82s           2025-04-21T13:47:25
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.95s           2025-04-21T13:47:25
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.12s           2025-04-21T13:47:25
+================================================================================
+[2025-04-21T13:48:14.557+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T13:48:14.593+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2025-04-21T13:48:17.651+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.87s           2025-04-21T13:47:57
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.99s           2025-04-21T13:47:57
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.11s           2025-04-21T13:47:57
+================================================================================
+[2025-04-21T13:48:48.047+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.84s           2025-04-21T13:48:28
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.97s           2025-04-21T13:48:28
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.12s           2025-04-21T13:48:28
+================================================================================
+[2025-04-21T13:49:18.415+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.85s           2025-04-21T13:49:00
+/opt/airflow/dags/scripts/train_model.py                           0           0  1.00s           2025-04-21T13:49:00
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.14s           2025-04-21T13:49:00
+================================================================================
+[2025-04-21T13:49:48.747+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.83s           2025-04-21T13:49:31
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.97s           2025-04-21T13:49:31
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.14s           2025-04-21T13:49:31
+================================================================================
+[2025-04-21T13:50:19.083+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.86s           2025-04-21T13:50:02
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.99s           2025-04-21T13:50:02
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.12s           2025-04-21T13:50:02
+================================================================================
+[2025-04-21T13:50:49.269+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.75s           2025-04-21T13:50:34
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.85s           2025-04-21T13:50:34
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.12s           2025-04-21T13:50:34
+================================================================================
+[2025-04-21T13:51:19.589+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.87s           2025-04-21T13:51:05
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.98s           2025-04-21T13:51:05
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.12s           2025-04-21T13:51:05
+================================================================================
+[2025-04-21T13:51:49.865+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.86s           2025-04-21T13:51:36
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.97s           2025-04-21T13:51:36
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.09s           2025-04-21T13:51:36
+================================================================================
+[2025-04-21T13:52:20.226+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.88s           2025-04-21T13:52:07
+/opt/airflow/dags/scripts/train_model.py                           0           0  1.01s           2025-04-21T13:52:08
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.13s           2025-04-21T13:52:08
+================================================================================
+[2025-04-21T13:52:50.652+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.90s           2025-04-21T13:52:39
+/opt/airflow/dags/scripts/train_model.py                           0           0  1.06s           2025-04-21T13:52:39
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.12s           2025-04-21T13:52:39
+================================================================================
+[2025-04-21T13:53:14.937+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T13:53:14.971+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2025-04-21T13:53:21.051+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.86s           2025-04-21T13:53:10
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.98s           2025-04-21T13:53:10
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.09s           2025-04-21T13:53:10
+================================================================================
+[2025-04-21T13:53:51.468+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.92s           2025-04-21T13:53:42
+/opt/airflow/dags/scripts/train_model.py                           0           0  1.05s           2025-04-21T13:53:42
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.17s           2025-04-21T13:53:42
+================================================================================
+[2025-04-21T13:54:21.805+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.84s           2025-04-21T13:54:13
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.96s           2025-04-21T13:54:13
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.13s           2025-04-21T13:54:13
+================================================================================
+[2025-04-21T13:54:52.128+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.87s           2025-04-21T13:54:44
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.98s           2025-04-21T13:54:45
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.14s           2025-04-21T13:54:45
+================================================================================
+[2025-04-21T13:55:22.616+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  1.03s           2025-04-21T13:55:16
+/opt/airflow/dags/scripts/train_model.py                           0           0  1.09s           2025-04-21T13:55:16
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.15s           2025-04-21T13:55:16
+================================================================================
+[2025-04-21T13:55:52.936+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.90s           2025-04-21T13:55:47
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.95s           2025-04-21T13:55:47
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.14s           2025-04-21T13:55:47
+================================================================================
+[2025-04-21T13:56:23.268+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.85s           2025-04-21T13:56:19
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.97s           2025-04-21T13:56:19
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.15s           2025-04-21T13:56:19
+================================================================================
+[2025-04-21T13:56:53.592+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.87s           2025-04-21T13:56:50
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.95s           2025-04-21T13:56:50
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.10s           2025-04-21T13:56:50
+================================================================================
+[2025-04-21T13:57:24.009+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.96s           2025-04-21T13:57:21
+/opt/airflow/dags/scripts/train_model.py                           0           0  1.02s           2025-04-21T13:57:21
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.09s           2025-04-21T13:57:22
+================================================================================
+[2025-04-21T13:57:54.380+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.85s           2025-04-21T13:57:53
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.95s           2025-04-21T13:57:53
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.11s           2025-04-21T13:57:53
+================================================================================
+[2025-04-21T13:58:15.642+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T13:58:15.674+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2025-04-21T13:58:24.713+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.87s           2025-04-21T13:58:24
+/opt/airflow/dags/scripts/train_model.py    830  0.92s             0           0  0.95s           2025-04-21T13:57:53
+/opt/airflow/dags/iris_pipeline.py          846  0.00s             1           0  0.11s           2025-04-21T13:57:53
+================================================================================
+[2025-04-21T13:58:55.192+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py     856  0.01s             0           0  0.87s           2025-04-21T13:58:24
+/opt/airflow/dags/scripts/train_model.py    853  0.05s             0           0  0.99s           2025-04-21T13:58:24
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.11s           2025-04-21T13:58:24
+================================================================================
+[2025-04-21T13:59:25.427+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.84s           2025-04-21T13:58:56
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.97s           2025-04-21T13:58:56
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.13s           2025-04-21T13:58:56
+================================================================================
+[2025-04-21T13:59:55.834+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.96s           2025-04-21T13:59:27
+/opt/airflow/dags/scripts/train_model.py                           0           0  1.12s           2025-04-21T13:59:27
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.20s           2025-04-21T13:59:27
+================================================================================
+[2025-04-21T14:00:26.313+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.96s           2025-04-21T13:59:58
+/opt/airflow/dags/scripts/train_model.py                           0           0  1.08s           2025-04-21T13:59:58
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.13s           2025-04-21T13:59:59
+================================================================================
+[2025-04-21T14:00:56.665+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.87s           2025-04-21T14:00:30
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.96s           2025-04-21T14:00:30
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.10s           2025-04-21T14:00:30
+================================================================================
+[2025-04-21T14:01:27.035+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.85s           2025-04-21T14:01:01
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.97s           2025-04-21T14:01:01
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.12s           2025-04-21T14:01:01
+================================================================================
+[2025-04-21T14:01:57.363+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.84s           2025-04-21T14:01:33
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.96s           2025-04-21T14:01:33
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.12s           2025-04-21T14:01:33
+================================================================================
+[2025-04-21T14:02:27.807+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.85s           2025-04-21T14:02:04
+/opt/airflow/dags/scripts/train_model.py                           0           0  1.03s           2025-04-21T14:02:04
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.13s           2025-04-21T14:02:04
+================================================================================
+[2025-04-21T14:02:58.201+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.89s           2025-04-21T14:02:35
+/opt/airflow/dags/scripts/train_model.py                           0           0  1.01s           2025-04-21T14:02:35
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.12s           2025-04-21T14:02:35
+================================================================================
+[2025-04-21T14:03:16.373+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T14:03:16.407+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2025-04-21T14:03:28.561+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.84s           2025-04-21T14:03:07
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.95s           2025-04-21T14:03:07
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.16s           2025-04-21T14:03:07
+================================================================================
+[2025-04-21T14:03:58.933+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.84s           2025-04-21T14:03:38
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.96s           2025-04-21T14:03:38
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.12s           2025-04-21T14:03:38
+================================================================================
+[2025-04-21T14:04:29.285+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.84s           2025-04-21T14:04:09
+/opt/airflow/dags/scripts/train_model.py                           0           0  0.92s           2025-04-21T14:04:09
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.11s           2025-04-21T14:04:10
+================================================================================
+[2025-04-21T14:04:59.774+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/preprocess.py                            0           0  0.96s           2025-04-21T14:04:41
+/opt/airflow/dags/scripts/train_model.py                           0           0  1.10s           2025-04-21T14:04:41
+/opt/airflow/dags/iris_pipeline.py                                 1           0  0.15s           2025-04-21T14:04:41
+================================================================================
